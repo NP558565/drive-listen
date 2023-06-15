@@ -52,7 +52,7 @@ const Player = () => {
                 style={{ position: "absolute", top: 10, right: 270 }}
                 onClick={() => setIsNoiseMuted(!isNoiseMuted)}
             >
-                Mute Radio
+                Muted
             </button>
             {isOverlayVisible && (<Loader />)}
         </>
